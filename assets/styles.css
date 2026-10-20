@@ -1588,7 +1588,7 @@ ol {
   .hero-grid { grid-template-columns: 1fr; gap: 60px; padding-bottom: 0; }
   .hero-copy h1 { max-width: 16ch; }
   .hero-visual { min-height: 420px; }
-  .pains-grid, .cases-grid, .packages-grid { grid-template-columns: 1fr; }
+  .pains-grid, .cases-grid, .packages-grid, .services-grid { grid-template-columns: 1fr; }
   .section-head-row { display: block; }
   .section-head-row .section-lead { margin-top: 18px; max-width: 64ch; }
   .security-panel { grid-template-columns: 1fr; gap: 36px; }
