@@ -658,6 +658,9 @@ ol {
   grid-template-columns: repeat(3, 1fr);
   gap: 22px;
 }
+.mvp-card-wide {
+  grid-column: 1 / -1;
+}
 .mvp-card {
   position: relative;
   display: flex;
