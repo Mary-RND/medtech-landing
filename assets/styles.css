@@ -1319,6 +1319,35 @@ ol {
   line-height: 1.6;
   color: var(--muted);
 }
+.package-wide {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1.05fr;
+  gap: 20px 52px;
+  align-items: start;
+}
+.package-wide .package-price {
+  margin: 18px 0 14px;
+  font-size: 46px;
+}
+.package-wide .package-desc {
+  max-width: 48ch;
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: var(--muted);
+}
+.package-wide .package-list {
+  margin-bottom: 18px;
+}
+.package-wide .package-terms {
+  margin-top: 0;
+}
+@media (max-width: 900px) {
+  .package-wide {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
 
 /* ---------- Контакты ---------- */
 .contact {
